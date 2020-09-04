@@ -1,105 +1,172 @@
-<%# <div class="soundcloud">
-  <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">SoundCloud</button>
-  <div class="flex justify-content-end">
-  <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Sing in</button>
-  <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">Create Account</button>
-  <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">For Creator</button>
-</div> %>
+<%#這是首頁旁邊的留白%>
+<div class="mx-6 bg-white">
 
-<div class="soundcloud">
-  <div class="">
-    <nav class="container mx-auto py-3 flex items-center justify-between">
-      <h1 class="w-1/12"></h1>
-      <div>
-        <%# <span><a href="#">sign_in</a></span> %>
-        <button class="px-2 py-2 bg-sladock text-white rounded border-gray-100"><a href="#">Sign in</a></button>
-        <button class="px-2 py-2 bg-orange-500 text-white rounded"><a href="#">Create Account</a></button>
-        <button class="px-2 py-2 bg-sladock text-white rounded"><a href="#">for Creator</a></button>
-      </div>
-    </nav>
+<%#這是首頁最上的大圖%>
+  <div class="soundcloud">
+    <div class="">
+      <nav class="container mx-auto py-3 flex items-center justify-between">
+        <h1 class="w-1/6 text-white ml-10">這是LOGO區塊</h1>
+        <div>
+          <button class="px-2 py-2 bg-sladock text-white rounded border-gray-100"><a href="#">Sign in</a></button>
+          <button class="px-4 py-2 bg-orange-600 text-white rounded"><a href="#">Create Account</a></button>
+          <button class="px-2 py-2 bg-sladock text-white rounded"><a href="#">for Creator</a></button>
+        </div>
+      </nav>
+    </div>
+    <div class="text-white text-4xl text-center m-10">Connect to SoundCloud</div>
+    <div class="text-white text-2xl text-center mx-auto max-w-xl">Discover, stream, and share a constantly expanding mix of music from emerging and major artists around the world.</div>
+    <div class="text-center content-center my-5 pb-5">
+      <button class="px-4 py-2 bg-orange-600 text-white rounded mb-10"><a href="#">Sign up for Free</a></button>
+    </div>
   </div>
 
-  <div class="text-white hover:text-black text-5xl text-center m-16">Connect to SoundCloud</div>
-  <div class="text-white hover:text-black text-3xl text-center m-16">Discover, stream, and share a constantly expanding mix of music from emerging and major artists around the world.</div>
-  <%# <button class="text-white">Sign up for free</button> %>
-  <div class="text-center content-center my-3 pb-5">
-    <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-    <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
-    <span>Sign up for free</span>
+<%#這是搜尋or上傳自己的那邊%>
+  <div class="container mx-auto flex max-w-3xl items-center my-10">
+    <form action="" class="relative justify-center flex-grow">
+      <input type="search" class="w-full py-2 focus:outline-none bg-gray-200" placeholder="Search for artists, bands, tracks, podcasts">
+    </form>
+    <span class="px-4">or</span>
+    <button class="px-4 py-2 bg-orange-600 text-white rounded"><a href="#">Upload your own</a></button>
+  </div>
+  
+  <div class="text-black text-center text-2xl m-10">
+    Hear what’s trending for free in the SoundCloud community
   </div>
 
-</button>
+<%#音樂區塊%>
+  <div class="grid gap-4 grid-cols-6">
+    <div class="">
+      <div class="songcover"></div>
+      <p class="text-sm">Lorem, ipsum dolor.</p>
+      <p class="text-xs text-gray-500">lorem</p>
+    </div>
+
+    <div class="">
+      <div class="songcover"></div>
+      <p class="text-sm">Lorem, ipsum dolor.</p>
+      <p class="text-xs text-gray-500">lorem</p>
+    </div>
+
+    <div class="">
+      <div class="songcover"></div>
+      <p class="text-sm">Lorem, ipsum dolor.</p>
+      <p class="text-xs text-gray-500">lorem</p>
+    </div>
+
+    <div class="">
+      <div class="songcover"></div>
+      <p class="text-sm">Lorem, ipsum dolor.</p>
+      <p class="text-xs text-gray-500">lorem</p>
+    </div>
+
+    <div class="">
+      <div class="songcover"></div>
+      <p class="text-sm">Lorem, ipsum dolor.</p>
+      <p class="text-xs text-gray-500">lorem</p>
+    </div>
+
+    <div class="">
+      <div class="songcover"></div>
+      <p class="text-sm">Lorem, ipsum dolor.</p>
+      <p class="text-xs text-gray-500">lorem</p>
+    </div>
+
+  </div>
+<%#音樂區塊%>
+  <div class="grid gap-4 grid-cols-6">
+
+    <div class="">
+      <div class="songcover"></div>
+      <p>Lorem, ipsum dolor.</p>
+      <p class="text-1xl text-gray-500">lorem</p>
+    </div>
+
+    <div class="">
+      <div class="songcover"></div>
+      <p>Lorem, ipsum dolor.</p>
+      <p class="text-1xl text-gray-500">lorem</p>
+    </div>
+
+    <div class="">
+      <div class="songcover"></div>
+      <p>Lorem, ipsum dolor.</p>
+      <p class="text-1xl text-gray-500">lorem</p>
+    </div>
+
+    <div class="">
+      <div class="songcover"></div>
+      <p>Lorem, ipsum dolor.</p>
+      <p class="text-1xl text-gray-500">lorem</p>
+    </div>
+
+    <div class="">
+      <div class="songcover"></div>
+      <p>Lorem, ipsum dolor.</p>
+      <p class="text-1xl text-gray-500">lorem</p>
+    </div>
+
+    <div class="">
+      <div class="songcover"></div>
+      <p>Lorem, ipsum dolor.</p>
+      <p class="text-1xl text-gray-500">lorem</p>
+    </div>
+
+  </div>
+<%#橘色按鈕%>
+  <div class="flex justify-center">
+    <button class="px-4 py-2 bg-orange-600 text-white rounded"><a href="#">explore trending playlists</a></button>
+  </div>
+<%#尋找創作者%>
+  <div class="songcover1">
+    <div class="w-1/2 m-10 p-10">
+      <div class="text-white text-4xl">Calling all creators</div>
+      <div class="text-white text-2xl">Get on SoundCloud to connect with fans, share your sounds, and grow your audience. What are you waiting for?</div>
+      <button class="px-6 py-2 my-6 bg-sladock text-white rounded border border-gray-200"><a href="#">Find out more</a></button>
+    </div>
+  </div>
+<%#再次逼你登入%>
+  <div class="flex flex-col items-center">
+    <div class="text-4xl text-center">Thanks for listening. Now join in.</div>
+    <div class="text-2xl text-center max-w-xl">Save tracks, follow artists and build playlists. All for free.</div>
+    <button class="m-4 px-4 py-2 bg-orange-600 text-white rounded"><a href="#">explore trending playlists</a></button>
+    
+    <div class="">
+      Already have an account?
+      <button class="px-6 py-2 my-6 bg-sladock rounded border border-gray-200"><a href="#">Sign in</a></button>
+    </div>
+  </div>
+
+  <div class="m-20">
+    我是分隔線，我還在想要怎麼處理
+  </div>
+<%#底部更多選單%>
+  <div class="flex">
+    <div class="text-gray-500 text-sm"><a href="#">Popular searches</a></div>
+      <div class="text-gray-500 text-sm">-</div>
+    <div class="text-gray-500 text-sm"><a href="#">Directory</a></div>
+      <div class="text-gray-500 text-sm">-</div>
+    <div class="text-gray-500 text-sm"><a href="#">About us</a></div>
+      <div class="text-gray-500 text-sm">-</div>
+    <div class="text-gray-500 text-sm"><a href="#">Creator Resources</a></div>
+      <div class="text-gray-500 text-sm">-</div>
+    <div class="text-gray-500 text-sm"><a href="#">Blog</a></div>
+      <div class="text-gray-500 text-sm">-</div>
+    <div class="text-gray-500 text-sm"><a href="#">Jobs</a></div>
+      <div class="text-gray-500 text-sm">-</div>
+    <div class="text-gray-500 text-sm"><a href="#">Developers</a></div>
+      <div class="text-gray-500 text-sm">-</div>
+    <div class="text-gray-500 text-sm"><a href="#">Help</a></div>
+      <div class="text-gray-500 text-sm">-</div>
+    <div class="text-gray-500 text-sm"><a href="#">Legal</a></div>
+      <div class="text-gray-500 text-sm">-</div>
+    <div class="text-gray-500 text-sm"><a href="#">Privacy</a></div>
+      <div class="text-gray-500 text-sm">-</div>
+    <div class="text-gray-500 text-sm"><a href="#">Cookies</a></div>
+
+  </div>
+  
+<%#底部語言選擇%>
+  <div class="mb-20">
+    Language: English (US)
+  </div>
 </div>
-
-<div class="text-black text-center text-3xl">Hear what’s trending for free in the SoundCloud community</div>
-
-  <input type="text" class="text-center">
-
-
-
-<div class="flex">
-
-  <div class="max-w-sm rounded overflow-hidden shadow-lg">
-    <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">
-    <div class="px-6 py-4">
-      <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-      <p class="text-gray-700 text-base">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-      </p>
-    </div>
-    <div class="px-6 pt-4 pb-2">
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-    </div>
-  </div>
-
-  <div class="max-w-sm rounded overflow-hidden shadow-lg">
-    <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">
-    <div class="px-6 py-4">
-      <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-      <p class="text-gray-700 text-base">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-      </p>
-    </div>
-    <div class="px-6 pt-4 pb-2">
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-    </div>
-  </div>
-
-  <div class="max-w-sm rounded overflow-hidden shadow-lg">
-    <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">
-    <div class="px-6 py-4">
-      <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-      <p class="text-gray-700 text-base">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-      </p>
-    </div>
-    <div class="px-6 pt-4 pb-2">
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-    </div>
-  </div>
-
-  <div class="max-w-sm rounded overflow-hidden shadow-lg">
-    <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains">
-    <div class="px-6 py-4">
-      <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-      <p class="text-gray-700 text-base">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-      </p>
-    </div>
-    <div class="px-6 pt-4 pb-2">
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-    </div>
-  </div>
-
-</div>
-
-
-
