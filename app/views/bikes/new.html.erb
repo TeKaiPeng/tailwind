@@ -1,0 +1,108 @@
+<%#=上傳歌曲頁面%>
+
+
+
+
+<%#=置頂分享頁面的navbar%>
+<div class="bg-gray-800 w-full flex justify-start sticky top-0">
+  <div class="text-gray-400 hover:text-white w-1/12 py-4 pt-2 pl-2 text-center">這是LOGO</div>
+  <div class="text-gray-400 hover:text-white w-1/12 pt-2 border-r border-black text-center">Home</div>
+  <div class="text-gray-400 hover:text-white w-1/12 pt-2 border-r border-black text-center">Stream</div>
+  <div class="text-gray-400 hover:text-white w-1/12 pt-2 border-r border-black text-center">Library</div>
+  <input type="search" class="px-2 m-2 bg-gray-200 rounded w-4/12 focus:outline-none" placeholder="Search">
+  <div class="text-gray-400 hover:text-white pt-2 text-center mx-3"><i class="fas fa-arrow-alt-circle-up"></i></div>
+  
+  <div class="text-gray-400 hover:text-white w-2/12 flex justify-around items-center">
+    <img class="w-1/6 h-1/6 mx-2 rounded-full" src="https://i1.sndcdn.com/artworks-48wHUXnYlyIAyhPm-kAqlLQ-t500x500.jpg" alt="">
+    <div class="">Username</div>
+    <i class="fas fa-angle-down"></i>
+  </div>
+  
+  <div class="text-gray-400 hover:text-white pt-2 text-center mx-3"><i class="fas fa-bell"></i></div>
+  <div class="text-gray-400 hover:text-white pt-2 text-center mx-3"><i class="fas fa-envelope-open"></i></div>
+  <div class="text-gray-400 hover:text-white pt-2 pr-2 text-center mx-3"><i class="far fa-address-card"></i></div>
+</div>
+
+<%#=UpLoad、Mastering、Your Tracks區域%>
+<div class="flex justify-between text-sm m-4 border-b border-gray-400">
+  <div class="flex m-2">
+    <button class="m-2 hover:text-orange-500">UpLoad</button>
+    <button class="m-2 hover:text-orange-500">Mastering</button>
+    <button class="m-2 hover:text-orange-500">Your Tracks</button>
+    <button class="m-2 hover:text-orange-500">Insights</button>
+    <button class="m-2 hover:text-orange-500">Pro Plan</button>
+    <button class="m-2 hover:text-orange-500">Pulse</button>
+  </div>
+  <div class="flex items-center">
+    <i class="fas fa-share-square"></i>
+    <button class="m-2">Creators on SoundsGood</button>
+  </div>
+</div>
+
+<div class="m-4">
+<%#=UpLoad進度條、TryPro區域%>
+  <div class="m-auto w-2/3 border border-gray-400 p-4">
+    <div class="flex justify-between items-center">    
+      <div class="">
+        <div class="flex justify-between items-center">
+          <div class="pr-2">0% of free Uploads used</div> 
+          
+          <button><i class="fas fa-arrow-down"></i></button> 
+        </div>
+        <div>進度條</div>
+        <div class="flex">
+          <button class="text-blue-500 hover:text-black">Try Pro Unlimited</button>
+          <p class="px-2">for unlimited uploads.</p>
+        </div>
+      </div>
+
+      <button class="text-orange-500 border border-orange-600 rounded p-2 hover:bg-orange-600 hover:text-white">Try Pro Unlimited</button>
+      
+    </div>
+  </div>
+<%#=Drag and drop your tracks區域%>
+  <div class="mt-2 m-auto w-2/3 border border-gray-400 p-4">
+    <div class="text-center">
+      <p class="py-2 text-2xl">Drag and drop your tracks & albums here</p>
+      <button class="text-white bg-orange-600 rounded py-2 px-10">or choose files to Upload</button>
+      <p class="py-2 text-xs"> Make a playlist when multiple files are selected</p>
+      <p class="py-2">Privacy: Public, Private</p>
+      <p class="py-2 text-xs">Provide FLAC, WAV, ALAC, or AIFF for highest audio quality.</p>
+      <button class="py-2 text-blue-500 hover:text-black text-xs">Learn more about lossless HD.</button>
+    </div>
+  </div>
+
+  <div class="mt-2 m-auto w-2/3 p-4 text-xs">
+    <div class="flex">
+      <button class="text-blue-500 hover:text-black">Supported file types and sizes</button>⁃
+      <button class="text-blue-500 hover:text-black px-2">Upload troubleshooting tips</button>⁃
+      <button class="text-blue-500 hover:text-black px-2">Copyright FAQs</button>
+    </div>
+    <div class="flex border-b border-gray-400 py-2">
+      <p>By uploading, you confirm that your sounds comply with our</p>
+      <button class="text-blue-500 hover:text-black px-2">Terms of Use</button>
+      <p>and you don't infringe anyone else's rights.</p>
+    </div>
+    <div class="flex">
+      <div class="my-3 text-xs table-row-group">
+        <div class="">
+          <span class="text-gray-500  hover:text-black"><a href="#">Legal</a></span>
+          <span class="text-gray-500  hover:text-black"><a href="#">Privacy</a></span>
+          <span class="text-gray-500  hover:text-black"><a href="#">Cookies</a></span>
+          <span class="text-gray-500  hover:text-black"><a href="#">Imprint</a></span>
+          <span class="text-gray-500  hover:text-black"><a href="#">Creator Resources</a></span>
+          <span class="text-gray-500  hover:text-black"><a href="#">Blog</a></span>
+          <span class="text-gray-500  hover:text-black"><a href="#">Charts</a></span>
+          <span class="text-gray-500  hover:text-black"><a href="#">Popular Search</a></span>
+        </div>
+          <div class="flex mt-2 mb-20">
+            <button class="text-blue-500 hover:text-black pr-2">Language:</button>
+             English (US)
+          </div>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
